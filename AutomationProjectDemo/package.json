@@ -1,0 +1,17 @@
+{
+  "name": "automationprojectdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "OpenTestRunner": "cypress open",
+    "ExecuteAllTEst": "cypress run",
+    "myspecRun" : "cypress run  --spec .\\cypress\\e2e\\3-practice-examples\\01-login.cy.js --browser=firefox --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.9.0"
+  }
+}
